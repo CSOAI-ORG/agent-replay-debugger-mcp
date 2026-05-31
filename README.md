@@ -1,79 +1,78 @@
 # Agent Replay Debugger MCP
 
-> ## 🧱 Part of the MEOK A2A Substrate (£499/mo)
-> See [meok.ai/a2a](https://meok.ai/a2a).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/agent_replay_debugger_mcp/)
 
-# Step-debug an agent run — deterministic replay + signed audit evidence
+> Agent Replay Debugger MCP - step-debug + deterministic replay + signed audit evidence
 
-<!-- mcp-name: io.github.CSOAI-ORG/agent-replay-debugger-mcp -->
+Agent Replay Debugger MCP - step-debug + deterministic replay + signed audit evidence. MIT. By MEOK AI Labs.
 
-[![PyPI](https://img.shields.io/pypi/v/agent-replay-debugger-mcp)](https://pypi.org/project/agent-replay-debugger-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## What this does
+## 🚀 Quick Start
 
-Record every action an agent takes (inputs, outputs, timestamps, costs) so you can REPLAY the run deterministically afterward. Step through each action like a debugger. Filter, search, branch from any step. Sign the recording for audit evidence.
+```bash
+# Install via pip
+pip install agent_replay_debugger_mcp
 
-Pairs with `bft-progress-council-mcp` (real-time loop halting) and `agent-audit-logger-mcp` (audit-chain submission).
+# Or install via Smithery
+npx -y @smithery/cli@latest install agent-replay-debugger-mcp --client claude
+```
 
-## Tools
+## ✨ Features
 
-| Tool | Purpose |
-|---|---|
-| `start_recording(goal, session_id?, agent_id?)` | Open new recording |
-| `record_step(session_id, action, input?, output?, model?, tokens?, ms?)` | Log one step |
-| `replay_step(session_id, step_idx)` | Re-fetch a step |
-| `timeline(session_id, model_filter?, tag_filter?)` | Full ordered timeline |
-| `branch_from(session_id, step_idx, new_action)` | Alternative branch |
-| `search_steps(session_id, query)` | Free-text step search |
-| `export_recording(session_id, format)` | JSON or markdown export |
-| `sign_recording(session_id)` | HMAC-sign for audit submission |
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## Use cases
+## 📖 Documentation
 
-- Debug why an agent burned £20 on a £0.50 task
-- Reproduce a customer-reported wrong-answer bug
-- Audit evidence: prove what an agent did, to whom, when
-- Train next-gen agents on senior-agent traces
-- Forensic post-mortems after prompt-injection incidents
+- [Full Documentation](https://docs.meok.ai/agent-replay-debugger-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-## Sister MCPs
+## 🛡️ Compliance
 
-- `bft-progress-council-mcp` — real-time loop halt
-- `agent-token-budget-mcp` — spend cap
-- `agent-audit-logger-mcp` — audit-chain submission
-- `agent-cost-allocator-mcp` — multi-tenant chargeback
+This MCP server is built with **EU AI Act compliance** built-in:
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-## Pricing
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Universal PAYG | £29/mo + £0.0002/call |
-| A2A Substrate | £499/mo |
-| Universe | £1,499/mo |
-| Defence | £4,990/mo |
+## 🏢 Enterprise
 
-Buy: https://meok.ai/a2a
+Need custom development, SLA guarantees, or white-label deployment?
 
-## Licence
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677).
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-<!-- BUY-LADDER:START -->
+## 🤝 Part of the MEOK Ecosystem
 
-## 💸 Try MEOK in 30 seconds — instant buy ladder
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
 
-| Tier | Price | What you get | Stripe |
-|---|---|---|---|
-| Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/dRmcN75ScdQS7oh1Uc8k90U> |
-| Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/cNi00la8s1460ZT0Q88k90V> |
-| Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/8x228ta8s6oqbExaqI8k90W> |
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
 
-> Refundable. UK Stripe — VAT-clean. Builds on the 81-MCP MEOK fleet.
-> Verify any signed report at <https://meok.ai/verify>.
+## 📜 License
 
-<!-- BUY-LADDER:END -->
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
