@@ -1,3 +1,5 @@
+mcp-name: io.github.CSOAI-ORG/agent-replay-debugger-mcp
+
 # Agent Replay Debugger MCP
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
@@ -76,3 +78,29 @@ MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 <p align="center">
   <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
 </p>
+<!-- BUY-LADDER:END -->
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "agent-replay-debugger-mcp": {
+      "command": "uvx",
+      "args": ["agent-replay-debugger-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install agent-replay-debugger-mcp` then run the `agent-replay-debugger-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `start_recording` to …"
+- "Use `record_step` to …"
+- "Use `replay_step` to …"

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "agent-replay-debugger-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "Agent Replay Debugger MCP — record every agent step + replay deterministically. Step-debugger for agentic loops. Audit-evidence signed exports. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }

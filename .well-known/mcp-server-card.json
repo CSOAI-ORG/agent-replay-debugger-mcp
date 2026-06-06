@@ -1,0 +1,37 @@
+{
+  "name": "agent-replay-debugger-mcp",
+  "title": "Agent Replay Debugger Mcp",
+  "description": "Agent Replay Debugger MCP \u2014 record every agent step + replay deterministically. Step-debugger for agentic loops. Audit-evidence signed exports. By MEOK AI Labs.",
+  "version": "1.0.1",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "start_recording"
+    },
+    {
+      "name": "record_step"
+    },
+    {
+      "name": "replay_step"
+    },
+    {
+      "name": "timeline"
+    },
+    {
+      "name": "branch_from"
+    },
+    {
+      "name": "search_steps"
+    },
+    {
+      "name": "export_recording"
+    },
+    {
+      "name": "sign_recording"
+    }
+  ]
+}
