@@ -2,8 +2,26 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/agent-replay-debugger-mcp",
   "version": "1.0.0",
-  "description": "Agent Replay Debugger MCP — record every agent step + deterministic replay. Step-debugger for agentic loops with signed audit-evidence export. By MEOK AI Labs.",
-  "repository": { "url": "https://github.com/CSOAI-ORG/agent-replay-debugger-mcp", "source": "github" },
-  "packages": [{ "registryType": "pypi", "identifier": "agent-replay-debugger-mcp", "version": "1.0.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
-  "remotes": [{ "type": "streamable-http", "url": "https://api.meok.ai/v1/a2a/agent-replay-debugger" }]
+  "description": "Agent Replay Debugger MCP \u2014 record every agent step + deterministic replay. Step-debugger for",
+  "repository": {
+    "url": "https://github.com/CSOAI-ORG/agent-replay-debugger-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "agent-replay-debugger-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "python",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meok.ai/v1/a2a/agent-replay-debugger"
+    }
+  ]
 }
