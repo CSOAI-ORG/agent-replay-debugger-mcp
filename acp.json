@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "agent-replay-debugger-mcp",
+    "description": "Agent Replay Debugger MCP \u2014 record every agent step + deterministic replay. Step-debugger for",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "agent-replay-debugger-mcp"
+      }
+    ],
+    "capabilities": [
+      "start_recording",
+      "record_step",
+      "replay_step",
+      "timeline",
+      "branch_from",
+      "search_steps",
+      "export_recording",
+      "sign_recording"
+    ]
+  }
+}

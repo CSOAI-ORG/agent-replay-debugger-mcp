@@ -1,0 +1,95 @@
+{
+  "name": "agent-replay-debugger-mcp",
+  "description": "Agent Replay Debugger MCP \u2014 record every agent step + deterministic replay. Step-debugger for",
+  "url": "https://proofof.ai/scorecard/agent-replay-debugger-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "start_recording",
+      "name": "Start Recording",
+      "description": "start_recording via agent-replay-debugger-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "record_step",
+      "name": "Record Step",
+      "description": "record_step via agent-replay-debugger-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "replay_step",
+      "name": "Replay Step",
+      "description": "replay_step via agent-replay-debugger-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "timeline",
+      "name": "Timeline",
+      "description": "timeline via agent-replay-debugger-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "branch_from",
+      "name": "Branch From",
+      "description": "branch_from via agent-replay-debugger-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "search_steps",
+      "name": "Search Steps",
+      "description": "search_steps via agent-replay-debugger-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "export_recording",
+      "name": "Export Recording",
+      "description": "export_recording via agent-replay-debugger-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_recording",
+      "name": "Sign Recording",
+      "description": "sign_recording via agent-replay-debugger-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
