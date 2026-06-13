@@ -5,3 +5,6 @@ dist/
 
 # Auto-added during alignment sweep
 __pycache__/server.cpython-311.pyc
+
+# Auto-added during alignment sweep
+*.pyc

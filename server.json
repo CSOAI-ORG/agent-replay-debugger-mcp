@@ -2,10 +2,11 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/agent-replay-debugger-mcp",
   "version": "1.0.4",
-  "description": "Agent Replay Debugger MCP — record every agent step + deterministic replay. Step-debugger for",
+  "description": "Agent Replay Debugger MCP \u2014 record every agent step + deterministic replay. Step-debugger for",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/agent-replay-debugger-mcp",
-    "source": "github"
+    "source": "github",
+    "id": "1245598362"
   },
   "packages": [
     {
