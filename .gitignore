@@ -2,3 +2,6 @@
 _pycache__/server.cpython-311.pyc
 __pycache__/.!17064!server.cpython-311.pyc
 dist/
+
+# Auto-added during alignment sweep
+__pycache__/server.cpython-311.pyc
